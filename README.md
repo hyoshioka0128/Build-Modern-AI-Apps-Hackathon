@@ -57,7 +57,7 @@ git checkout main
 
 >**NOTE**:
 >
->By default, the deployment script will attempt to create new Azure Open AI model deployments for the `gpt-35-turbo` and `text-embedding-ada-002` models. If you already have deployments for these models, you can skip the deployment by passing the following parameters to the script:
+>By default, the deployment script will attempt to create new Azure OpenAI model deployments for the `gpt-35-turbo` and `text-embedding-ada-002` models. If you already have deployments for these models, you can skip the deployment by passing the following parameters to the script:
 
 >```pwsh
 >-openAiName <open-ai-name> -openAiRg <open-ai-resource-group> -openAiCompletionsDeployment <completions-deployment-name> -openAiEmbeddingsDeployment <embeddings-deployment-name> -stepDeployOpenAi $false
